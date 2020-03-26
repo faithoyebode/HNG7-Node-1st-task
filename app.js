@@ -3,7 +3,6 @@ const fs = require('fs');
 const path = require('path');
 const { parse } = require('querystring');
 
-const PORT = process.env.port || 8080;
 http.createServer((req, res) => {
     if(req.url==="/"){
         fs.readFile('index.html', "UTF-8", (err, data) => {
@@ -48,4 +47,4 @@ http.createServer((req, res) => {
         });    
     }
 })
-.listen(PORT);
+.listen(8080);
