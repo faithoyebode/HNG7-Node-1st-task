@@ -1,0 +1,15 @@
+{
+  "name": "hng7_node_1st_task",
+  "version": "1.0.0",
+  "description": "HNG7 Node.js first task",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "dev": "nodemon app"
+  },
+  "author": "Faith Oyebode",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

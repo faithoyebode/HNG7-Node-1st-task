@@ -1,0 +1,21 @@
+label{
+    display: block;
+    margin-bottom: 3rem;
+}
+textarea{
+    height: 200px;
+    width: 100%;
+    display: block;
+    margin-bottom: 3rem;
+}
+div{
+    padding: 100px 200px;
+}
+input{
+    padding: 10px 20px;
+    color: white;
+    background-color: rgb(0, 38, 255);
+    border: none;
+
+
+}
